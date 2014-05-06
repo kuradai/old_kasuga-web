@@ -1,0 +1,27 @@
+﻿<script type="text/javascript" src="./sliding_effect.js"></script>
+<!-- index.html内に記述するとFirefoxで動作しない（何故） -->
+<script type="text/javascript">
+$(function() {
+$('#ui-tab > ul').tabs({ fx: { opacity: 'toggle', duration: 'normal'  } });
+});
+</script>
+<aside>
+<div id="menustyle">
+<nav>
+<div id="ui-tab">
+	<ul id="sliding-navigation">
+	<li class="sliding-element"><a href="#fragment-0">トップページ</a></li>  
+	<li class="sliding-element"><a href="#fragment-1">クラ代ってなに？</a></li>  
+	<li class="sliding-element"><a href="#fragment-2">局紹介</a></li>  
+	<li class="sliding-element"><a href="#fragment-3">クラス連絡会ってなに？</a></li>  
+	<li class="sliding-element"><a href="#fragment-4">施設紹介</a></li>  
+	<li class="sliding-element"><a href="#fragment-5">年間活動表</a></li>
+	<li class="sliding-element"><a href="#fragment-6">WEB版目安箱</a></li>  
+	<li class="sliding-element"><a href="#fragment-7">WEB版PAL</a></li>  
+	<li class="sliding-element"><a href="#fragment-8">お問い合わせ</a></li>  
+	</ul>
+</div>
+</div>
+</nav>
+</div>
+</aside>
